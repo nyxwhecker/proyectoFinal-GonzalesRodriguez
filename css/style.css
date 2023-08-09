@@ -1,0 +1,221 @@
+body {
+    background-color: rgb(182, 170, 221);
+}
+
+.logo {
+    position: relative;
+    width: auto;
+    height: 150px;
+  }
+  
+  .main-titulo {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+.container-titulo {
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+    justify-content: center;
+  }
+
+
+.registrarse {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    padding: 10px 20px;
+    background-color: #4e138e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.inicio {
+    color: rgb(45, 14, 78);
+    background-color: rgb(177, 150, 200);
+    text-align: center;
+    font-size:28px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.cotiza{
+    color: black;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 26px; 
+    margin-left: 35px;
+}
+
+.subtitulo-dos{
+    color: black;
+    text-align: left;
+    font-size: 24px; 
+    margin-left: 35px;
+}
+
+/* Estilos para el contenedor de la grilla */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 36px; /* Espacio entre celdas */
+    width: 400px; /* Ajusta el ancho total de la grilla según tus necesidades */
+}
+
+/* Estilos para los elementos dentro de la grilla (celdas) */
+.grid-item {
+    background-color: rgb(182, 170, 221);
+    padding: 10px;
+    text-align: center;
+}
+
+.uno {
+    grid-column-start: 1;
+    font-size: 20px;
+    margin-left: 45px;
+}
+
+.apellido {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.dos {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    font-size: 20px;
+    margin-left: 45px;
+}
+
+.tres {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    font-size: 20px;
+    margin-left: 45px;
+}
+
+.cuatro{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    font-size: 20px;
+    margin-left: 40px;
+
+}
+
+.cinco {
+    grid-column-start: 3;
+    grid-row-start: 3;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+
+
+.formulario {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    text-align: left;
+    font-size: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+ 
+}
+
+#age {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+#car {
+    margin-bottom: 10px;
+    margin-left: 60px;
+    font-size: 15px;
+}
+
+.tipo {
+    margin-left: 40px;
+}
+
+.cuotas{
+    margin-left: 40px;
+}
+
+.cantidadcuotas{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.errores{
+    list-style-type: none;
+}
+
+.botones {
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+#calcularButton{
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #4e138e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+#convertToDollarsButton{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4e138e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+button {
+    margin-right: 10px;
+    font-size:20px ;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #4e138e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+#resultados {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#carrito {
+    margin-top: 20px;
+    text-align: center;
+    
+}

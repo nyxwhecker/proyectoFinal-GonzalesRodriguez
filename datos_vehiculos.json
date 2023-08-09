@@ -1,0 +1,8 @@
+[
+    { "tipo": "daewoo", "precioMenor15": 90000, "precioMayor15": 60000 },
+    { "tipo": "renault", "precioMenor15": 78000, "precioMayor15": 50000 },
+    { "tipo": "volkswagen", "precioMenor15": 85000, "precioMayor15": 40000 },
+    { "tipo": "honda", "precioMenor15": 70000, "precioMayor15": 38000 },
+    { "tipo": "bmw", "precioMenor15": 100000, "precioMayor15": 70000 },
+    { "tipo": "motorcycles", "precioMenor15": 30000, "precioMayor15": 15000 }
+]

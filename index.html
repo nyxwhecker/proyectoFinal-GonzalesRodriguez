@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--union con bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+     <!--union con css-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/LOGO.jpg" type="image/x-icon">
+    <title>Calculadora de seguros</title>
+</head>
+
+<body>
+
+    <section>
+        <div class="container-titulo" >
+            <img class="logo" src="images/LOGO.jpg" alt="logo">
+            <h1 class="main-titulo" >FOX DRIVE DEFENDER</h1>
+        </div>
+        
+    </section>
+       
+        <button id="btn" class="registrarse">Registrase</button>
+    <section>
+
+    </section>
+
+    <section class="inicio">
+        <h3>Compañía de seguros</h3>
+        <p>Garantizamos tu seguridad y la de tu vehículo. Confía en nosotros y viaja seguro.</p>
+    </section>
+
+    <section>
+        <h4 class="cotiza">Cotiza tu seguro</h4>
+        <p class="subtitulo-dos">Datos Personales</p>
+    </section>
+
+<div class="grid-container">
+    <div class="grid-item uno" id="nombreUsuario">
+        <label for="name">Ingrese nombre:</label>
+        <input type="text" />
+    </div>
+
+    <div class="grid-item apellido" id="apellidoUsuario">
+        <label for="name">Apellido:</label>
+        <input type="text" />
+    </div>
+
+    <div class="grid-item dos">
+        <label for="codigo">Código postal:</label>
+        <input type="text"  />
+    </div>
+
+    <div class="grid-item tres">
+        <label for="Localidad">Localidad:</label>
+        <input type="text"  />
+    </div>
+
+    <div class="grid-item cuatro" id="mailUsuario">
+        <label for="email">Mail:</label>
+        <input type="text" />
+    </div>
+
+    <div class="grid-item cinco">
+        <label for="numero">Número:</label>
+        <input type="number" />
+    </div>
+
+</div>
+
+
+<section>
+    <p class="subtitulo-dos">Datos de tu vehículo</p>
+</section>
+
+    <div class="formulario">
+        <label for="age">Años de antigüedad:</label>
+        <input type="number" id="age" />
+    </div>
+
+    <div class="tipo">
+        <label for="car">Tipo de vehículo:</label>
+        <select id="car">
+            <option value="daewoo">Daewoo</option>
+            <option value="renault">Renault</option>
+            <option value="volkswagen">Volkswagen</option>
+            <option value="honda">Honda</option>
+            <option value="bmw">BMW</option>
+            <option value="motorcycles">Motos</option>
+        </select>
+    </div>
+
+    <!-- aca-->
+    <div class="cantidadcuotas">
+        <label for="cuotas">Cantidad de cuotas:</label>
+        <select id="cuotasx">
+        <option value="1">Pago al contado</option>
+        <option value="3">3 cuotas</option>
+        <option value="6">6 cuotas</option>
+        <option value="12">12 cuotas</option>
+        </select>
+    </div>
+   
+    
+<!-- hasta aca -->
+
+
+
+    <div class="botones">
+        <button id="calcularButton">Calcular</button>
+      
+    </div>
+
+    <div class="errores">
+        <div id="errorAge" style="color: red;"></div>
+        <div id="errorCar" style="color: red;"></div>
+    </div>
+
+    <div id="resultados">
+        <div id="resultado1"></div>
+        <div id="resultado2"></div>
+        <div id="resultado3"></div>
+        <div id="resultadoContado"></div>
+    </div>
+ 
+
+
+
+    <!-- Sección del carrito de compras -->
+    <div id="carrito">
+        <button id="añadirCarritoButton">Añadir al carrito</button>
+        <button id="limpiarCarritoButton">Limpiar carrito</button>
+        
+        <ul id="listaSeguros">
+            <!-- Aca se agregarán los seguros seleccionados -->
+        </ul>
+        <h2>Finalizar Compra</h2>
+        <button id="comprar">Monto Final</button>
+        <div id="montoFinal" ></div>
+        <button id="convertToDollarsButton">Convertir a dólares</button>
+        <div id="compraEnDolares"></div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/mylib.js"></script>
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>
